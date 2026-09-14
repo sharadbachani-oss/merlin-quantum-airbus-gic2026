@@ -1,0 +1,148 @@
+{
+ "card": "pseudo-spectral explicit time-stepper vs modelled Schr\u00f6dingerisation on the non-circulant transport operator",
+ "method": "RK2 + exact integrating factor for diffusion, derivatives in Fourier space, same discrete stencil as the FV operator; dt = 0.25 dx/Umax",
+ "fit_seconds_per_N3log2N2": 1.113338354612281e-08,
+ "measured": [
+  {
+   "Re": 100,
+   "N": 256,
+   "ps_wall_s": 2.6780568000103813,
+   "steps": 163,
+   "rel_err_vs_krylov": 2.386853909053705e-06,
+   "quantum_s_at_1MHz": 2204.49450253937,
+   "logical_qubits": 52
+  },
+  {
+   "Re": 100,
+   "N": 512,
+   "ps_wall_s": 26.23601929997676,
+   "steps": 326,
+   "rel_err_vs_krylov": null,
+   "quantum_s_at_1MHz": 11053.059890051458,
+   "logical_qubits": 58
+  },
+  {
+   "Re": 100,
+   "N": 1024,
+   "ps_wall_s": 245.02846229998977,
+   "steps": 652,
+   "rel_err_vs_krylov": null,
+   "quantum_s_at_1MHz": 54168.564131309875,
+   "logical_qubits": 64
+  },
+  {
+   "Re": 10000,
+   "N": 256,
+   "ps_wall_s": 2.7640209000092,
+   "steps": 163,
+   "rel_err_vs_krylov": 2.4525362783999545e-06,
+   "quantum_s_at_1MHz": 24.084912850123715,
+   "logical_qubits": 46
+  },
+  {
+   "Re": 10000,
+   "N": 512,
+   "ps_wall_s": 25.344423599977745,
+   "steps": 326,
+   "rel_err_vs_krylov": null,
+   "quantum_s_at_1MHz": 113.89559100170702,
+   "logical_qubits": 51
+  },
+  {
+   "Re": 10000,
+   "N": 1024,
+   "ps_wall_s": 244.96612179998192,
+   "steps": 652,
+   "rel_err_vs_krylov": null,
+   "quantum_s_at_1MHz": 546.080612982192,
+   "logical_qubits": 57
+  }
+ ],
+ "extrapolated": [
+  {
+   "Re": 100,
+   "N": 4096,
+   "ps_wall_s_extrapolated": 18361.926998178038,
+   "quantum_s_at_1MHz": 1233790.9715285974,
+   "quantum_over_ps": 67.19289166387712,
+   "logical_qubits": 76
+  },
+  {
+   "Re": 100,
+   "N": 16384,
+   "ps_wall_s_extrapolated": 1371023.8825306268,
+   "quantum_s_at_1MHz": 26646302.9403585,
+   "quantum_over_ps": 19.435330981379355,
+   "logical_qubits": 88
+  },
+  {
+   "Re": 100,
+   "N": 65536,
+   "ps_wall_s_extrapolated": 100280603.97938299,
+   "quantum_s_at_1MHz": 553330909.352868,
+   "quantum_over_ps": 5.517825854605234,
+   "logical_qubits": 100
+  },
+  {
+   "Re": 100,
+   "N": 262144,
+   "ps_wall_s_extrapolated": 7220203486.515575,
+   "quantum_s_at_1MHz": 11149056370.507273,
+   "quantum_over_ps": 1.5441471132121425,
+   "logical_qubits": 112
+  },
+  {
+   "Re": 100,
+   "N": 1048576,
+   "ps_wall_s_extrapolated": 513436692374.4409,
+   "quantum_s_at_1MHz": 219339417221.0784,
+   "quantum_over_ps": 0.4271985630920156,
+   "logical_qubits": 124
+  },
+  {
+   "Re": 10000,
+   "N": 4096,
+   "ps_wall_s_extrapolated": 18361.926998178038,
+   "quantum_s_at_1MHz": 12285.60335060222,
+   "quantum_over_ps": 0.6690802850823477,
+   "logical_qubits": 69
+  },
+  {
+   "Re": 10000,
+   "N": 16384,
+   "ps_wall_s_extrapolated": 1371023.8825306268,
+   "quantum_s_at_1MHz": 264979.5149011929,
+   "quantum_over_ps": 0.19327126119210664,
+   "logical_qubits": 81
+  },
+  {
+   "Re": 10000,
+   "N": 65536,
+   "ps_wall_s_extrapolated": 100280603.97938299,
+   "quantum_s_at_1MHz": 5506103.984158401,
+   "quantum_over_ps": 0.05490696870244637,
+   "logical_qubits": 93
+  },
+  {
+   "Re": 10000,
+   "N": 262144,
+   "ps_wall_s_extrapolated": 7220203486.515575,
+   "quantum_s_at_1MHz": 111037113.9699078,
+   "quantum_over_ps": 0.015378668229680825,
+   "logical_qubits": 105
+  },
+  {
+   "Re": 10000,
+   "N": 1048576,
+   "ps_wall_s_extrapolated": 513436692374.4409,
+   "quantum_s_at_1MHz": 2186046516.9790826,
+   "quantum_over_ps": 0.004257674898281004,
+   "logical_qubits": 117
+  }
+ ],
+ "crossover_N_per_Re_single_core": {
+  "100": 1048576,
+  "10000": 4096
+ },
+ "T": 0.5
+}

@@ -1,0 +1,188 @@
+{
+ "card": "non-circulant transport operator: measured Krylov vs modelled Schr\u00f6dingerisation",
+ "base_flow": "U = Uc - 0.5 cos x sin y, V = 0.5 sin x cos y (frozen TGV shape)",
+ "T": 0.5,
+ "classical_fit_seconds_per_nnz_per_normAT": 7.556733162438814e-09,
+ "measured": [
+  {
+   "Re": 100,
+   "N": 64,
+   "krylov_wall_s": 0.0033927999902516603,
+   "normA": 54.38053135824683,
+   "nnz": 20480,
+   "normAT": 27.190265679123414,
+   "decay": 0.9386229295985173,
+   "logical_qubits": 40,
+   "quantum_gates": 801230559.1374846,
+   "quantum_s_at_1MHz": 801.2305591374845
+  },
+  {
+   "Re": 100,
+   "N": 128,
+   "krylov_wall_s": 0.026750699995318428,
+   "normA": 208.60756700940914,
+   "nnz": 81920,
+   "normAT": 104.30378350470457,
+   "decay": 0.9385294745336812,
+   "logical_qubits": 46,
+   "quantum_gates": 4275076765.3770995,
+   "quantum_s_at_1MHz": 4275.0767653771
+  },
+  {
+   "Re": 100,
+   "N": 256,
+   "krylov_wall_s": 0.5579342000128236,
+   "normA": 834.4302680376366,
+   "nnz": 327680,
+   "normAT": 417.2151340188183,
+   "decay": 0.9385060590403018,
+   "logical_qubits": 52,
+   "quantum_gates": 22044945025.3937,
+   "quantum_s_at_1MHz": 22044.9450253937
+  },
+  {
+   "Re": 100,
+   "N": 512,
+   "krylov_wall_s": 22.401893400005065,
+   "normA": 3337.721072150546,
+   "nnz": 1310720,
+   "normAT": 1668.860536075273,
+   "decay": 0.9385002019323156,
+   "logical_qubits": 58,
+   "quantum_gates": 110530598900.51457,
+   "quantum_s_at_1MHz": 110530.59890051457
+  },
+  {
+   "Re": 10000,
+   "N": 64,
+   "krylov_wall_s": 0.0018376999942120165,
+   "normA": 15.657751732125263,
+   "nnz": 20480,
+   "normAT": 7.828875866062631,
+   "decay": 0.999444225513583,
+   "logical_qubits": 38,
+   "quantum_gates": 14729903.30444008,
+   "quantum_s_at_1MHz": 14.729903304440079
+  },
+  {
+   "Re": 10000,
+   "N": 128,
+   "krylov_wall_s": 0.007560199999716133,
+   "normA": 32.11617113504272,
+   "nnz": 81920,
+   "normAT": 16.05808556752136,
+   "decay": 0.9993849753346526,
+   "logical_qubits": 42,
+   "quantum_gates": 54424590.11249267,
+   "quantum_s_at_1MHz": 54.42459011249267
+  },
+  {
+   "Re": 10000,
+   "N": 256,
+   "krylov_wall_s": 0.05377910000970587,
+   "normA": 67.37065735000107,
+   "nnz": 327680,
+   "normAT": 33.685328675000534,
+   "decay": 0.9993701095361353,
+   "logical_qubits": 46,
+   "quantum_gates": 240849128.50123712,
+   "quantum_s_at_1MHz": 240.84912850123712
+  },
+  {
+   "Re": 10000,
+   "N": 512,
+   "krylov_wall_s": 2.7876122999878135,
+   "normA": 147.26237037416797,
+   "nnz": 1310720,
+   "normAT": 73.63118518708399,
+   "decay": 0.9993663897556866,
+   "logical_qubits": 51,
+   "quantum_gates": 1138955910.01707,
+   "quantum_s_at_1MHz": 1138.95591001707
+  }
+ ],
+ "extrapolated": [
+  {
+   "Re": 100,
+   "N": 1024,
+   "krylov_wall_s_extrapolated": 274.1599945209205,
+   "quantum_s_at_1MHz": 541685.6413130987,
+   "logical_qubits": 64,
+   "quantum_over_krylov": 1975.8011822974556,
+   "classical_bytes": 134217728
+  },
+  {
+   "Re": 100,
+   "N": 4096,
+   "krylov_wall_s_extrapolated": 68325.37125816525,
+   "quantum_s_at_1MHz": 12337909.715285975,
+   "logical_qubits": 76,
+   "quantum_over_krylov": 180.57581668554093,
+   "classical_bytes": 2147483648
+  },
+  {
+   "Re": 100,
+   "N": 16384,
+   "krylov_wall_s_extrapolated": 17372281.452382114,
+   "quantum_s_at_1MHz": 266463029.40358496,
+   "logical_qubits": 88,
+   "quantum_over_krylov": 15.338401587262284,
+   "classical_bytes": 34359738368
+  },
+  {
+   "Re": 100,
+   "N": 65536,
+   "krylov_wall_s_extrapolated": 4439687182.068498,
+   "quantum_s_at_1MHz": 5533309093.52868,
+   "logical_qubits": 100,
+   "quantum_over_krylov": 1.2463285962752566,
+   "classical_bytes": 549755813888
+  },
+  {
+   "Re": 10000,
+   "N": 1024,
+   "krylov_wall_s_extrapolated": 12.330097162909793,
+   "quantum_s_at_1MHz": 5460.806129821918,
+   "logical_qubits": 57,
+   "quantum_over_krylov": 442.884273957596,
+   "classical_bytes": 134217728
+  },
+  {
+   "Re": 10000,
+   "N": 4096,
+   "krylov_wall_s_extrapolated": 1296.91753451449,
+   "quantum_s_at_1MHz": 122856.03350602217,
+   "logical_qubits": 69,
+   "quantum_over_krylov": 94.72925628383472,
+   "classical_bytes": 2147483648
+  },
+  {
+   "Re": 10000,
+   "N": 16384,
+   "krylov_wall_s_extrapolated": 212997.2991275227,
+   "quantum_s_at_1MHz": 2649795.149011929,
+   "logical_qubits": 81,
+   "quantum_over_krylov": 12.44051055983335,
+   "classical_bytes": 34359738368
+  },
+  {
+   "Re": 10000,
+   "N": 65536,
+   "krylov_wall_s_extrapolated": 46910438.83532187,
+   "quantum_s_at_1MHz": 55061039.841584004,
+   "logical_qubits": 93,
+   "quantum_over_krylov": 1.1737481295980763,
+   "classical_bytes": 549755813888
+  }
+ ],
+ "crossover_N_per_Re": {
+  "100": null,
+  "10000": null
+ },
+ "assumptions": {
+  "v8_constants": "schrod_tgv.resources (1 MHz logical, eps 1e-4, 3 observables, amplitude estimation)",
+  "oracle_factor": 2.0,
+  "classical_rate": "this laptop, single process scipy expm_multiply",
+  "note": "classical comparator is the exact Krylov solve, not explicit stepping; no FFT route exists for variable coefficients"
+ }
+}

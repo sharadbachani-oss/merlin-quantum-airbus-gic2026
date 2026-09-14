@@ -1,0 +1,150 @@
+{
+ "card": "best-of-two classical comparators vs modelled Schr\u00f6dingerisation, single core",
+ "rows": [
+  {
+   "Re": 10000,
+   "N": 512,
+   "krylov": 2.237205500015989,
+   "pseudospectral": 25.344423599977745,
+   "best_classical": 2.237205500015989,
+   "binding": "Krylov",
+   "quantum": 1138.95591001707,
+   "ratio": 509.0975817862642,
+   "qubits": 51
+  },
+  {
+   "Re": 10000,
+   "N": 4096,
+   "krylov": 1413.4380612922346,
+   "pseudospectral": 18361.926998178038,
+   "best_classical": 1413.4380612922346,
+   "binding": "Krylov",
+   "quantum": 122856.03350602217,
+   "ratio": 86.91999803210417,
+   "qubits": 69
+  },
+  {
+   "Re": 10000,
+   "N": 16384,
+   "krylov": 232133.87245318663,
+   "pseudospectral": 1371023.8825306268,
+   "best_classical": 232133.87245318663,
+   "binding": "Krylov",
+   "quantum": 2649795.149011929,
+   "ratio": 11.414943976115769,
+   "qubits": 81
+  },
+  {
+   "Re": 10000,
+   "N": 65536,
+   "krylov": 51125069.98880776,
+   "pseudospectral": 100280603.97938299,
+   "best_classical": 51125069.98880776,
+   "binding": "Krylov",
+   "quantum": 55061039.841584004,
+   "ratio": 1.0769870799910475,
+   "qubits": 93
+  },
+  {
+   "Re": 10000,
+   "N": 262144,
+   "krylov": 12556741030.145473,
+   "pseudospectral": 7220203486.515575,
+   "best_classical": 7220203486.515575,
+   "binding": "pseudo-spectral",
+   "quantum": 1110371139.699078,
+   "ratio": 0.15378668229680825,
+   "qubits": 105
+  },
+  {
+   "Re": 10000,
+   "N": 1048576,
+   "krylov": 3180523982949.925,
+   "pseudospectral": 513436692374.4409,
+   "best_classical": 513436692374.4409,
+   "binding": "pseudo-spectral",
+   "quantum": 21860465169.790825,
+   "ratio": 0.04257674898281003,
+   "qubits": 117
+  },
+  {
+   "Re": 100,
+   "N": 512,
+   "krylov": 23.306847700005164,
+   "pseudospectral": 26.23601929997676,
+   "best_classical": 23.306847700005164,
+   "binding": "Krylov",
+   "quantum": 110530.59890051457,
+   "ratio": 4742.408768582209,
+   "qubits": 58
+  },
+  {
+   "Re": 100,
+   "N": 4096,
+   "krylov": 74464.01002232288,
+   "pseudospectral": 18361.926998178038,
+   "best_classical": 18361.926998178038,
+   "binding": "pseudo-spectral",
+   "quantum": 12337909.715285975,
+   "ratio": 671.9289166387713,
+   "qubits": 76
+  },
+  {
+   "Re": 100,
+   "N": 16384,
+   "krylov": 18933080.294477027,
+   "pseudospectral": 1371023.8825306268,
+   "best_classical": 1371023.8825306268,
+   "binding": "pseudo-spectral",
+   "quantum": 266463029.40358496,
+   "ratio": 194.35330981379352,
+   "qubits": 88
+  },
+  {
+   "Re": 100,
+   "N": 65536,
+   "krylov": 4838567354.026912,
+   "pseudospectral": 100280603.97938299,
+   "best_classical": 100280603.97938299,
+   "binding": "pseudo-spectral",
+   "quantum": 5533309093.52868,
+   "ratio": 55.17825854605234,
+   "qubits": 100
+  },
+  {
+   "Re": 100,
+   "N": 262144,
+   "krylov": 1238141965743.9,
+   "pseudospectral": 7220203486.515575,
+   "best_classical": 7220203486.515575,
+   "binding": "pseudo-spectral",
+   "quantum": 111490563705.07272,
+   "ratio": 15.441471132121425,
+   "qubits": 112
+  },
+  {
+   "Re": 100,
+   "N": 1048576,
+   "krylov": 316930341509671.06,
+   "pseudospectral": 513436692374.4409,
+   "best_classical": 513436692374.4409,
+   "binding": "pseudo-spectral",
+   "quantum": 2193394172210.784,
+   "ratio": 4.271985630920156,
+   "qubits": 124
+  }
+ ],
+ "crossover_single_core": {
+  "10000": {
+   "N_single_core": 69091.06545416776,
+   "logical_qubits": 93,
+   "N_1000_core": 60146805.75767948
+  },
+  "100": {
+   "N_single_core": 5022879.650637178,
+   "logical_qubits": 136,
+   "N_1000_core": 8659500985.293077
+  }
+ },
+ "readout": "3 design observables to 1% by amplitude estimation, O(1/eps_read) charged in full (eps_read=1e-2); evolution eps=1e-4; oracle factor 2"
+}

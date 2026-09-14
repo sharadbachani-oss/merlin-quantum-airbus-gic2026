@@ -1,0 +1,180 @@
+{
+ "card": "cheapest adversary for the v8 Schr\u00f6dingerisation time-to-solution crossover",
+ "method": "exact exp(A T) u0 by 2D FFT diagonalisation of the identical periodic central stencil; same output vector as the Schr\u00f6dingerised readout; no time stepping",
+ "machine": "DESKTOP-8AEHV1A",
+ "T": 0.5,
+ "fit_seconds_per_N2log2N2": 1.6045103520042488e-08,
+ "measured": [
+  {
+   "Re": 100,
+   "N": 128,
+   "fft_wall_s": 0.0019961000070907176,
+   "fft_l2_vs_analytic": 0.00013358635058757768,
+   "package_classical_fv_l2": 0.00013358635058756806,
+   "quantum_gates": 213753838.26885498,
+   "quantum_s_at_1MHz": 213.75383826885496,
+   "explicit_fv_s_at_10GFLOPs": 0.0064084244585290474,
+   "logical_qubits": 32
+  },
+  {
+   "Re": 100,
+   "N": 256,
+   "fft_wall_s": 0.013482400012435392,
+   "fft_l2_vs_analytic": 3.33994435670119e-05,
+   "package_classical_fv_l2": null,
+   "quantum_gates": 1102247251.269685,
+   "quantum_s_at_1MHz": 1102.247251269685,
+   "explicit_fv_s_at_10GFLOPs": 0.10253479133646476,
+   "logical_qubits": 36
+  },
+  {
+   "Re": 100,
+   "N": 1024,
+   "fft_wall_s": 0.33407169999554753,
+   "fft_l2_vs_analytic": 2.087520999852033e-06,
+   "package_classical_fv_l2": null,
+   "quantum_gates": 27084282065.654938,
+   "quantum_s_at_1MHz": 27084.282065654937,
+   "explicit_fv_s_at_10GFLOPs": 26.24890658213498,
+   "logical_qubits": 44
+  },
+  {
+   "Re": 100,
+   "N": 4096,
+   "fft_wall_s": 6.507047399994917,
+   "fft_l2_vs_analytic": 1.3047021248702717e-07,
+   "package_classical_fv_l2": null,
+   "quantum_gates": 616895485764.2987,
+   "quantum_s_at_1MHz": 616895.4857642987,
+   "explicit_fv_s_at_10GFLOPs": 6719.720085026554,
+   "logical_qubits": 52
+  },
+  {
+   "Re": 10000,
+   "N": 128,
+   "fft_wall_s": 0.0019675999938044697,
+   "fft_l2_vs_analytic": 0.00014187911386718345,
+   "package_classical_fv_l2": 0.00014187911386718784,
+   "quantum_gates": 2721229.5056246337,
+   "quantum_s_at_1MHz": 2.721229505624634,
+   "explicit_fv_s_at_10GFLOPs": 0.004005265286580654,
+   "logical_qubits": 28
+  },
+  {
+   "Re": 10000,
+   "N": 256,
+   "fft_wall_s": 0.017202200018800795,
+   "fft_l2_vs_analytic": 3.547298201152866e-05,
+   "package_classical_fv_l2": null,
+   "quantum_gates": 12042456.425061857,
+   "quantum_s_at_1MHz": 12.042456425061857,
+   "explicit_fv_s_at_10GFLOPs": 0.032042122292645234,
+   "logical_qubits": 30
+  },
+  {
+   "Re": 10000,
+   "N": 1024,
+   "fft_wall_s": 0.3034629999892786,
+   "fft_l2_vs_analytic": 2.2171239476018496e-06,
+   "package_classical_fv_l2": null,
+   "quantum_gates": 273040306.49109596,
+   "quantum_s_at_1MHz": 273.040306491096,
+   "explicit_fv_s_at_10GFLOPs": 2.050695826729295,
+   "logical_qubits": 37
+  },
+  {
+   "Re": 10000,
+   "N": 4096,
+   "fft_wall_s": 6.513834899989888,
+   "fft_l2_vs_analytic": 1.3857049114606658e-07,
+   "package_classical_fv_l2": null,
+   "quantum_gates": 6142801675.301109,
+   "quantum_s_at_1MHz": 6142.80167530111,
+   "explicit_fv_s_at_10GFLOPs": 131.24453291067488,
+   "logical_qubits": 45
+  }
+ ],
+ "extrapolated": [
+  {
+   "Re": 10,
+   "N": 16384,
+   "fft_wall_s_extrapolated": 120.5980910391547,
+   "quantum_s_at_1MHz": 133616595.96923,
+   "explicit_fv_s_at_10GFLOPs": 17202483.417667978,
+   "quantum_over_fft": 1107949.5107915811,
+   "logical_qubits": 63,
+   "fft_bytes": 8589934592
+  },
+  {
+   "Re": 10,
+   "N": 65536,
+   "fft_wall_s_extrapolated": 2205.222236144543,
+   "quantum_s_at_1MHz": 2772831729.5156813,
+   "explicit_fv_s_at_10GFLOPs": 4403835754.923002,
+   "quantum_over_fft": 1257393.3293741439,
+   "logical_qubits": 71,
+   "fft_bytes": 137438953472
+  },
+  {
+   "Re": 100,
+   "N": 16384,
+   "fft_wall_s_extrapolated": 120.5980910391547,
+   "quantum_s_at_1MHz": 13323151.47017925,
+   "explicit_fv_s_at_10GFLOPs": 1720248.341766798,
+   "quantum_over_fft": 110475.6414913202,
+   "logical_qubits": 60,
+   "fft_bytes": 8589934592
+  },
+  {
+   "Re": 100,
+   "N": 65536,
+   "fft_wall_s_extrapolated": 2205.222236144543,
+   "quantum_s_at_1MHz": 276665454.676434,
+   "explicit_fv_s_at_10GFLOPs": 440383575.4923003,
+   "quantum_over_fft": 125459.21682711517,
+   "logical_qubits": 68,
+   "fft_bytes": 137438953472
+  },
+  {
+   "Re": 1000,
+   "N": 16384,
+   "fft_wall_s_extrapolated": 120.5980910391547,
+   "quantum_s_at_1MHz": 1327307.1822075846,
+   "explicit_fv_s_at_10GFLOPs": 172024.83417667978,
+   "quantum_over_fft": 11006.03807880049,
+   "logical_qubits": 56,
+   "fft_bytes": 8589934592
+  },
+  {
+   "Re": 1000,
+   "N": 65536,
+   "fft_wall_s_extrapolated": 2205.222236144543,
+   "quantum_s_at_1MHz": 27584836.791416634,
+   "explicit_fv_s_at_10GFLOPs": 44038357.549230024,
+   "quantum_over_fft": 12508.869328129053,
+   "logical_qubits": 64,
+   "fft_bytes": 137438953472
+  },
+  {
+   "Re": 10000,
+   "N": 16384,
+   "fft_wall_s_extrapolated": 120.5980910391547,
+   "quantum_s_at_1MHz": 132489.75745059646,
+   "explicit_fv_s_at_10GFLOPs": 17202.483417667976,
+   "quantum_over_fft": 1098.6057599168869,
+   "logical_qubits": 53,
+   "fft_bytes": 8589934592
+  },
+  {
+   "Re": 10000,
+   "N": 65536,
+   "fft_wall_s_extrapolated": 2205.222236144543,
+   "quantum_s_at_1MHz": 2753051.9920792007,
+   "explicit_fv_s_at_10GFLOPs": 4403835.754923002,
+   "quantum_over_fft": 1248.4238309207535,
+   "logical_qubits": 61,
+   "fft_bytes": 137438953472
+  }
+ ],
+ "verdict": "On the operator v8 names, the exact classical solve is one FFT pair. At the claimed crossover N=65,536 the modelled fault-tolerant time is 1.1e+03-1.3e+06x the FFT wall-clock on this laptop; the crossover exists only against explicit time-stepping, which nobody uses for a constant-coefficient periodic linear operator. The v8 time-to-solution claim does not survive; the memory claim was already conceded against the 128-byte spectral floor."
+}

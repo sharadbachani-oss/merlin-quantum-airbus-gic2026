@@ -85,7 +85,7 @@ def schrod_solve(N, nu, T):
                 l2_vs_analytic=err_schrod, l2_classical_fv_vs_analytic=err_classical, l2_schrod_vs_classical=err_vs_classical, wall_s=wall)
 
 # ----------------------------- resource model (fault-tolerant) -----------------------------
-def resources(N, Re, T, eps=1e-4):
+def resources(N, Re, T, eps=1e-4, eps_read=1e-2):
     """Gate-level estimate for simulating H_S = xi (x) H1 - I (x) H2 to time T within eps (qubitization / LCU).
     H1, H2 are sums of 2D shift operators (5-point stencils): s = 5 terms, each shift an n-qubit incrementer.
     Queries ~ ||H_S|| T + log(1/eps); each query ~ s * (incrementer cost) gates.  Classical: explicit FV N^2 cells x steps."""
@@ -100,7 +100,7 @@ def resources(N, Re, T, eps=1e-4):
     gates_per_query = 5 * 2 * incrementer + 4 * (2 * n + n_p)   # 5 stencil terms x 2 axes + bookkeeping
     q_gates = queries * gates_per_query
     # readout: m observables (kinetic-energy decay, two modal amplitudes) to precision eps via amplitude estimation
-    m_obs = 3; q_total = q_gates * m_obs / eps ** 0.5 * 0.1          # amplitude estimation ~ O(1/eps) repetitions of a sqrt-eps-precision circuit
+    m_obs = 3; q_total = q_gates * m_obs / eps_read                 # readout: 3 design observables to precision eps_read (1%) by amplitude estimation, O(1/eps_read) oracle calls each, charged in full
     logical_qubits = 2 * n + n_p + 6
     # classical explicit finite volume, same stencils, same accuracy class
     dt = min(0.25 * dx / UC, 0.2 * dx ** 2 / nu); steps = T / dt
