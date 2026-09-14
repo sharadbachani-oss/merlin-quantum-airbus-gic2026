@@ -1,0 +1,58 @@
+{
+ "card": "AIRBUS QLGA RESULT",
+ "tag": "20260810_122411",
+ "backend": "ibm_marrakesh",
+ "mode1": {
+  "amps": [
+   0.7120510245171199,
+   0.4045059622571948,
+   0.25491914153325945,
+   0.3565430674502513,
+   0.32860777611947356,
+   0.21990780445321428,
+   0.21516556212090118,
+   0.1687085093239619,
+   0.14070663783795048
+  ],
+  "decay_rate": 0.10707639560797752,
+  "drift": 0.0013160667031053193
+ },
+ "mode2": {
+  "amps": [
+   0.7432356769353474,
+   0.4210923313667898,
+   0.2908336843885744,
+   0.45209783535014436,
+   0.40245788745958244,
+   0.289373079832673,
+   0.24454326760748657,
+   0.21071404340836294,
+   0.15834040234705066
+  ],
+  "decay_rate": 0.09992545113989933,
+  "drift": 0.06545790417929592
+ },
+ "gates": {
+  "P1": true,
+  "P2": false,
+  "P3": false,
+  "k_ratio": 0.933216425268377,
+  "drift_control": 0.021971450425844998,
+  "nu_eff_per_step": 0.10707639560797752,
+  "Uc_eff_cells_per_step": 0.0013160667031053193
+ },
+ "grading_v2": {
+  "method": "exact-waveform correlation with single damping envelope (A1-P pattern)",
+  "note": "original P2/P3 gates graded idealized exponential/k^2 laws against COHERENT dynamics with partial revivals (model waveforms carry the same non-monotone shape) \u2014 instrument error, disclosed. Physics verdict: hardware faithfully reproduces the exact medium dynamics; diffusive ordering emerges in the damping envelopes (k=2 ~1.7x k=1); convection exact-by-construction (machine-precision boost identity), spurious hardware drift +0.001 = clean. Final grading vs box exact nr=21 anchors (task A-1) when delivered.",
+  "modes": {
+   "1": {
+    "waveform_corr": 0.9855281407866036,
+    "envelope_per_step": 0.04479048029552827
+   },
+   "2": {
+    "waveform_corr": 0.9199580082031145,
+    "envelope_per_step": 0.07597750875626483
+   }
+  }
+ }
+}

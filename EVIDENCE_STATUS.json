@@ -1,0 +1,36 @@
+{
+ "track": "Airbus",
+ "status": "P4_HARDWARE_RETRIEVED_TWO_DIMENSIONAL_OPERATOR_AND_FLUID_BRIDGE_OPEN",
+ "new_hardware_advantage_demonstrated": false,
+ "receipt_hashes": {
+  "qlga_xqk.json": "5f20ddec90806acdf4607b0375d148010114e4d300003fb047252a311b27ce39",
+  "qlga_advantage.json": "93337cb48111780af823da3face052b441a93f0f1d394ebc89c124872d0afc23"
+ },
+ "missing_referenced_receipts": [],
+ "classical_comparator": {
+  "observable": "retarded response",
+  "fidelity": 0.999,
+  "grid_chi": [
+   13,
+   52,
+   202
+  ],
+  "chain_chi": [
+   11,
+   43,
+   131
+  ],
+  "grid_chi_growth_per_column": [
+   4.0,
+   3.88
+  ],
+  "grid_over_chain": [
+   1.18,
+   1.21,
+   1.54
+  ],
+  "verdict": "bond dimension grows near the maximum rate; the two-dimensional operator is consistently harder than the chain and the gap widens",
+  "withdrawn": "an earlier run reporting chi flat at 4 initialised a stationary eigenstate of the evolution generator and is withdrawn",
+  "receipt": "results/grid_operator_comparator.json"
+ }
+}

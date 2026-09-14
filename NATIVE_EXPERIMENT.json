@@ -1,0 +1,52 @@
+{
+  "version": 6,
+  "track": "Airbus",
+  "status": "PROPOSED_NOT_FLOWN",
+  "observable": "equal-time connected X(q,k) of the actual ordered lattice-gas step",
+  "next": "Uniform k=0..16 series plus no-exchange and decoupled controls; separate fluid-model mapping test.",
+  "baselines": [
+    "analytic Taylor-Green mean field for PDE check",
+    "same-circuit tensor-network and direct real-time simulation",
+    "exchange/coupling ablations with identical output estimator"
+  ],
+  "required_controls": [
+    "same instance and observable",
+    "null perturbation",
+    "coupling/encoding ablation",
+    "independent repeat"
+  ],
+  "acceptance": "quantum upper confidence bound < best classical lower bound at identical accuracy and total cost; application mapping separately validated",
+  "backend": null,
+  "layout": null,
+  "job_id": null,
+  "quoted_cost": null,
+  "new_hardware_advantage_demonstrated": false,
+  "depths": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "modes": [
+    1,
+    2
+  ],
+  "primary_circuits": 34,
+  "total_circuits": 68,
+  "shots_per_circuit": 8192,
+  "total_shots_per_run": 557056,
+  "executable_manifest": "series_v6/manifest.json"
+}

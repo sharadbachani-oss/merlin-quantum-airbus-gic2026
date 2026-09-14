@@ -1,0 +1,14 @@
+controlled test: identical qubit count, chain against grid
+  grid 2x2       pairs= 4 sites= 8 bonds= 4  chi={'sequence': 13, 'pair_adjacent': 13, 'snake': 13}  best= 13 of cap   16  qCX=36
+  chain 4        pairs= 4 sites= 8 bonds= 3  chi={'sequence': 11, 'pair_adjacent': 11}  best= 11 of cap   16  qCX=28
+  grid 3x2       pairs= 6 sites=12 bonds= 7  chi={'sequence': 52, 'pair_adjacent': 52, 'snake': 52}  best= 52 of cap   64  qCX=62
+  chain 6        pairs= 6 sites=12 bonds= 5  chi={'sequence': 43, 'pair_adjacent': 43}  best= 43 of cap   64  qCX=46
+  grid 4x2       pairs= 8 sites=16 bonds=10  chi={'sequence': 202, 'pair_adjacent': 202, 'snake': 202}  best=202 of cap  256  qCX=88
+  chain 8        pairs= 8 sites=16 bonds= 7  chi={'sequence': 131, 'pair_adjacent': 131}  best=131 of cap  256  qCX=64
+
+   4 pairs: grid chi= 13  chain chi= 11   grid/chain = 1.18x
+   6 pairs: grid chi= 52  chain chi= 43   grid/chain = 1.21x
+   8 pairs: grid chi=202  chain chi=131   grid/chain = 1.54x
+
+  chi growth per added pair-column:  grid ['4.00x', '3.88x']   chain ['3.91x', '3.05x']
+  wrote results/grid_operator_comparator.json

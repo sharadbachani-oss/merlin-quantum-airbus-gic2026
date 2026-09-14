@@ -1,0 +1,295 @@
+{
+ "card": "AIRBUS NATIVE ADVANTAGE OF ROUTE",
+ "date": "2026-09-08",
+ "lead": "Real-frequency vortex-relaxation spectrum of a TGV-prepared vortex evolving under H = \u03bc*\u00b7D \u2212 A\u2086 on today's hardware",
+ "job": "d9solsgpdb6s73e6a6q0",
+ "scout": "d9solbntfhrs73dt1t40",
+ "backend": "ibm_marrakesh",
+ "operator": {
+  "H": "kappa * D - A6",
+  "kappa": 3.927050983124843,
+  "delta_pair": 0.8392289315034753,
+  "pending_mu": 3.927050983124843,
+  "mu_match": true,
+  "D": "sum_i (1/2)(I - Z_{2i} Z_{2i+1})   # pair ZZ, native RZZ(-mu dt)",
+  "A6": "sum_q X_q                         # native RX(-2 dt) per qubit",
+  "exchange": "XX+YY on inter-pair bonds     # native RXX+RYY",
+  "prep": "exact shallow RY on leg-a of each pair; TGV Fourier mode as parity field",
+  "convection": "exact Galilean boost at readout (machine-precision identity)",
+  "nr": 21,
+  "nq_used": 42,
+  "device_nq": 156,
+  "dt": 0.3,
+  "path": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   17,
+   27,
+   28,
+   29,
+   30,
+   31,
+   18,
+   11,
+   12,
+   13,
+   14,
+   15,
+   19,
+   35,
+   34,
+   33,
+   39,
+   53,
+   54,
+   55,
+   59,
+   75,
+   74,
+   73,
+   79,
+   93,
+   94,
+   95,
+   99,
+   115,
+   114,
+   113,
+   112,
+   111,
+   110,
+   109,
+   108
+  ]
+ },
+ "modes": {
+  "1": {
+   "hardware_amps": [
+    0.7120510245171199,
+    0.4045059622571948,
+    0.25491914153325945,
+    0.3565430674502513,
+    0.32860777611947356,
+    0.21990780445321428,
+    0.21516556212090118,
+    0.1687085093239619,
+    0.14070663783795048
+   ],
+   "model_amps": [
+    0.8999999999999998,
+    0.5787956265742487,
+    0.3775518104553683,
+    0.5448219911963059,
+    0.6356118759357118,
+    0.45530362065653984,
+    0.44248772438846584,
+    0.3835424318582338,
+    0.29059671221037753
+   ],
+   "damped_model_corr": 0.9933300384278682,
+   "damped_alpha": 0.8428809302190423,
+   "damped_gamma": 0.126,
+   "damped_pred": [
+    0.7585928371971379,
+    0.4301009129607395,
+    0.24734354216890134,
+    0.31467159625034863,
+    0.32364865939741844,
+    0.18019415677284478,
+    0.13611269010137114,
+    0.09169984437371084,
+    0.054001231995005235
+   ],
+   "exp_A0": 0.479146752231462,
+   "exp_lambda": 0.10707639560797752,
+   "exp_corr": 0.8496770337107705,
+   "exp_pred": [
+    0.479146752231462,
+    0.43049276899680405,
+    0.3867792556152212,
+    0.3475045421154919,
+    0.31221789958413,
+    0.25203010607606563,
+    0.20344501213197433,
+    0.16422590779248905,
+    0.13256726477408864
+   ],
+   "rms_vs_damped_model": 0.05367715916096266,
+   "rms_vs_exponential": 0.09062295730489754,
+   "envelope_rate_hw": 0.1277809994673405,
+   "envelope_rate_model": 0.09472294617891514,
+   "has_revival": true,
+   "peak_hw": 0.07692307692307693,
+   "peak_model": 0.07692307692307693,
+   "peak_exp": 0.07692307692307693,
+   "sideband_hw": 0.32693842116690636,
+   "sideband_exp": 0.11325906771291815
+  },
+  "2": {
+   "hardware_amps": [
+    0.7432356769353474,
+    0.4210923313667898,
+    0.2908336843885744,
+    0.45209783535014436,
+    0.40245788745958244,
+    0.289373079832673,
+    0.24454326760748657,
+    0.21071404340836294,
+    0.15834040234705066
+   ],
+   "model_amps": [
+    0.9,
+    0.5788480202826831,
+    0.3223171045667169,
+    0.4198429568785692,
+    0.4750473555466196,
+    0.3644422234941373,
+    0.20489825493043842,
+    0.157817866266763,
+    0.0643834321689983
+   ],
+   "damped_model_corr": 0.9705445638121399,
+   "damped_alpha": 0.8900302088229417,
+   "damped_gamma": 0.028,
+   "damped_pred": [
+    0.8010271879406475,
+    0.5009669256428179,
+    0.2712486650605835,
+    0.3435665572242099,
+    0.3780077207284966,
+    0.2742028485387333,
+    0.14576761334182348,
+    0.1061594011106569,
+    0.040950190455707254
+   ],
+   "exp_A0": 0.5395749252356159,
+   "exp_lambda": 0.09992545113989933,
+   "exp_corr": 0.8455676008219645,
+   "exp_pred": [
+    0.5395749252356159,
+    0.48826398035356644,
+    0.4418324561813267,
+    0.3998163435972941,
+    0.36179575848521717,
+    0.296257481827397,
+    0.24259127831178445,
+    0.19864655552305227,
+    0.16266229476913635
+   ],
+   "rms_vs_damped_model": 0.07970719498330375,
+   "rms_vs_exponential": 0.09030358223303035,
+   "envelope_rate_hw": 0.12602093642782136,
+   "envelope_rate_model": 0.22408414054414796,
+   "has_revival": true,
+   "peak_hw": 0.07692307692307693,
+   "peak_model": 0.07692307692307693,
+   "peak_exp": 0.07692307692307693,
+   "sideband_hw": 0.3537730145735274,
+   "sideband_exp": 0.11369350303292879
+  }
+ },
+ "enstrophy_k_ratio_medium": 2.8241209752440763,
+ "enstrophy_k_ratio_grading_v2": 1.6962869845325184,
+ "gates": {
+  "G1_operator_identity": true,
+  "G2_waveform_vs_exact_medium": true,
+  "G3_medium_beats_tgv_exponential": true,
+  "G4_revival_present": true,
+  "G5_medium_k_ordering": true,
+  "G6_sideband_vs_exponential": true,
+  "P4_Xqk_extracted": true,
+  "P4_note": "P4 extracted from retrieved counts of d9solsgpdb6s73e6a6q0 (qlga_counts_20260810_122411.json \u2192 qlga_xqk.json). Connected X(q,k) inherits the A1 k>=8 adjudication. Not a Navier-Stokes claim. Counts were not invented.",
+  "verdict": "PASS"
+ },
+ "P4_Xqk": {
+  "job": "d9solsgpdb6s73e6a6q0",
+  "backend": "ibm_marrakesh",
+  "counts": "C:\\quantum ai 2026\\airbus\\qlga_counts_20260810_122411.json",
+  "artifact": "qlga_xqk.json",
+  "k_ge_8": {
+   "1": {
+    "8": {
+     "0.5": 0.0006360245413196782,
+     "1.0": 0.0008317876109276083,
+     "2.0": -0.0006388599166586212,
+     "4.0": -0.0006491586375715642
+    },
+    "10": {
+     "0.5": 0.00033189699858992167,
+     "1.0": -0.00023466214713511525,
+     "2.0": 5.811706045609756e-05,
+     "4.0": -0.00031801047537067834
+    },
+    "12": {
+     "0.5": -0.00013730636399298963,
+     "1.0": -0.0007916216704926817,
+     "2.0": -0.0015634446954760973,
+     "4.0": -0.001044176311371991
+    }
+   },
+   "2": {
+    "8": {
+     "0.5": -0.0009975878299665058,
+     "1.0": -0.0007094181651205502,
+     "2.0": -0.0006767209300822417,
+     "4.0": -0.00178992165463271
+    },
+    "10": {
+     "0.5": 0.00012282716055088603,
+     "1.0": -4.438661364852517e-05,
+     "2.0": -0.0008614303599950182,
+     "4.0": 0.0002700526416027431
+    },
+    "12": {
+     "0.5": -0.0009015558750079426,
+     "1.0": -0.0001260427962624774,
+     "2.0": -0.00015604908724046397,
+     "4.0": 0.0006178397629106685
+    }
+   }
+  },
+  "note": "k>=8 cells inherit the A1 adjudication class. This extract is the P4 channel. Not a Navier-Stokes claim."
+ },
+ "annex_qtt": {
+  "role": "classical mean-field TGV baseline (like Mitsubishi absolute energy off-device)",
+  "why_cheap": "convecting TGV is one Fourier mode; quantics rank ~3 at any N",
+  "pairs": [
+   {
+    "Re": 10,
+    "N": 64,
+    "chi": 3,
+    "l2_vs_exact": 0.0002701430593049341,
+    "mem_ratio": 56.10958904109589
+   },
+   {
+    "Re": 100,
+    "N": 256,
+    "chi": 8,
+    "l2_vs_exact": 6.179507392404894e-05,
+    "mem_ratio": 155.66745843230404
+   },
+   {
+    "Re": 10000,
+    "N": 4096,
+    "chi": 3,
+    "l2_vs_exact": 4.372676866610601e-05,
+    "mem_ratio": 92182.5054945055
+   }
+  ],
+  "not_the_lead": true
+ },
+ "what_we_do_not_claim": [
+  "full incompressible Navier\u2013Stokes on the chip",
+  "mean-field L2 / KE supremacy over QTT (QTT wins the rank-3 field)",
+  "unbounded fluid quantum advantage (brief ref [9] already bounds it)",
+  "a new independent classical-death proof on this X(q,k) extract (k>=8 inherits the frozen A1 class; not a Navier-Stokes observable)"
+ ],
+ "classical_routes_that_fail": [
+  "imaginary-time + analytic continuation \u2014 ill-posed at any N",
+  "low-rank Fourier / QTT of the mean TGV \u2014 single exponential pole, no revivals",
+  "classical real-time many-body on H \u2014 A1 adjudication: dies at k\u22658 (2e8 terms)"
+ ]
+}

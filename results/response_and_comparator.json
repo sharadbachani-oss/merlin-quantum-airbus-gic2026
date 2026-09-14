@@ -1,0 +1,90 @@
+{
+ "card": "Airbus retarded response and classical comparator",
+ "operator": "kappa*D on pairs, -sum X, XX+YY exchange on bonds",
+ "observable": "retarded chi_ab(t) = -2 Im <Z_a(t) Z_b>",
+ "replaces": "spatial FT of equal-time connected pair covariance",
+ "fidelity_target": 0.999,
+ "spectra": [
+  {
+   "nr": 3,
+   "n_sites": 6,
+   "E0": -2.306241190429394,
+   "chi_at_0": 0.0,
+   "peak_frequency": 0.065178270821365,
+   "peak_amplitude": 1.300898352356534,
+   "spectral_weight_frac": 0.043606151876352514
+  },
+  {
+   "nr": 4,
+   "n_sites": 8,
+   "E0": -3.1060645645193086,
+   "chi_at_0": 0.0,
+   "peak_frequency": 2.4441851558011876,
+   "peak_amplitude": 0.7256758515655183,
+   "spectral_weight_frac": 0.04384774909921466
+  },
+  {
+   "nr": 5,
+   "n_sites": 10,
+   "E0": -3.9147380740821283,
+   "chi_at_0": 0.0,
+   "peak_frequency": 2.2160612079264097,
+   "peak_amplitude": 0.8218991715867807,
+   "spectral_weight_frac": 0.040511015875718745
+  }
+ ],
+ "comparator": [
+  {
+   "nr": 3,
+   "n_sites": 6,
+   "chi_cap": 8,
+   "chi_by_ordering": {
+    "sequence": 4,
+    "pair_adjacent": 4,
+    "interleaved": 7
+   },
+   "chi_best_ordering": 4,
+   "classical_cost_proxy": 96.0,
+   "quantum_logical_cx": 19
+  },
+  {
+   "nr": 4,
+   "n_sites": 8,
+   "chi_cap": 16,
+   "chi_by_ordering": {
+    "sequence": 4,
+    "pair_adjacent": 4,
+    "interleaved": 12
+   },
+   "chi_best_ordering": 4,
+   "classical_cost_proxy": 128.0,
+   "quantum_logical_cx": 28
+  },
+  {
+   "nr": 5,
+   "n_sites": 10,
+   "chi_cap": 32,
+   "chi_by_ordering": {
+    "sequence": 4,
+    "pair_adjacent": 4,
+    "interleaved": 22
+   },
+   "chi_best_ordering": 4,
+   "classical_cost_proxy": 160.0,
+   "quantum_logical_cx": 37
+  }
+ ],
+ "chi_growth_per_pair": [
+  1.0,
+  1.0
+ ],
+ "cap_growth": [
+  2.0,
+  2.0
+ ],
+ "quantum_cx_growth": [
+  1.4736842105263157,
+  1.3214285714285714
+ ],
+ "scope": "measured cost for this instance family, observable, accuracy target and orderings searched; credible classical baseline and censored benchmark observation, not a complexity proof"
+}

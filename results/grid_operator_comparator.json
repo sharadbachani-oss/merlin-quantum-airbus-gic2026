@@ -1,0 +1,96 @@
+{
+ "card": "fluid operator: two-dimensional connectivity vs chain",
+ "fidelity_target": 0.999,
+ "rows": [
+  {
+   "label": "grid 2x2",
+   "npairs": 4,
+   "n_sites": 8,
+   "n_bonds": 4,
+   "chi_by_ordering": {
+    "sequence": 13,
+    "pair_adjacent": 13,
+    "snake": 13
+   },
+   "chi_best": 13,
+   "chi_cap": 16,
+   "quantum_logical_cx": 36
+  },
+  {
+   "label": "chain 4",
+   "npairs": 4,
+   "n_sites": 8,
+   "n_bonds": 3,
+   "chi_by_ordering": {
+    "sequence": 11,
+    "pair_adjacent": 11
+   },
+   "chi_best": 11,
+   "chi_cap": 16,
+   "quantum_logical_cx": 28
+  },
+  {
+   "label": "grid 3x2",
+   "npairs": 6,
+   "n_sites": 12,
+   "n_bonds": 7,
+   "chi_by_ordering": {
+    "sequence": 52,
+    "pair_adjacent": 52,
+    "snake": 52
+   },
+   "chi_best": 52,
+   "chi_cap": 64,
+   "quantum_logical_cx": 62
+  },
+  {
+   "label": "chain 6",
+   "npairs": 6,
+   "n_sites": 12,
+   "n_bonds": 5,
+   "chi_by_ordering": {
+    "sequence": 43,
+    "pair_adjacent": 43
+   },
+   "chi_best": 43,
+   "chi_cap": 64,
+   "quantum_logical_cx": 46
+  },
+  {
+   "label": "grid 4x2",
+   "npairs": 8,
+   "n_sites": 16,
+   "n_bonds": 10,
+   "chi_by_ordering": {
+    "sequence": 202,
+    "pair_adjacent": 202,
+    "snake": 202
+   },
+   "chi_best": 202,
+   "chi_cap": 256,
+   "quantum_logical_cx": 88
+  },
+  {
+   "label": "chain 8",
+   "npairs": 8,
+   "n_sites": 16,
+   "n_bonds": 7,
+   "chi_by_ordering": {
+    "sequence": 131,
+    "pair_adjacent": 131
+   },
+   "chi_best": 131,
+   "chi_cap": 256,
+   "quantum_logical_cx": 64
+  }
+ ],
+ "grid_chi_growth": [
+  4.0,
+  3.8846153846153846
+ ],
+ "chain_chi_growth": [
+  3.909090909090909,
+  3.046511627906977
+ ],
+ "scope": "measured cost for these instances, observable, accuracy target and orderings searched; credible classical baseline, not a complexity proof"
+}

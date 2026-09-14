@@ -1,0 +1,18 @@
+{
+ "Re": 100,
+ "N": 256,
+ "T": 1.0,
+ "dt": 0.0019174759848570512,
+ "steps": 522,
+ "l2": 6.317806496179642e-05,
+ "chi_max": 8,
+ "qtt_bytes": 15216,
+ "dense_bytes": 2097152,
+ "wall_s": 9068.5,
+ "solver": "qtt_fv.py with gesvd fallback, 2026-09-14",
+ "ladder_cited": {
+  "l2": 6.179507392404894e-05,
+  "qtt_bytes": 13472,
+  "wall_s": 3515.1
+ }
+}

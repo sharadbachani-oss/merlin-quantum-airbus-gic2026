@@ -1,0 +1,32 @@
+{
+ "pending": "C:\\quantum ai 2026\\airbus\\qlga_pending_20260810_122411.json",
+ "backend": "ibm_marrakesh",
+ "scout_job": "d9solbntfhrs73dt1t40",
+ "scout_pass": true,
+ "main_job": "d9solsgpdb6s73e6a6q0",
+ "main_names": [
+  "M1_0",
+  "M1_1",
+  "M1_2",
+  "M1_3",
+  "M1_4",
+  "M1_6",
+  "M1_8",
+  "M1_10",
+  "M1_12",
+  "M2_0",
+  "M2_1",
+  "M2_2",
+  "M2_3",
+  "M2_4",
+  "M2_6",
+  "M2_8",
+  "M2_10",
+  "M2_12",
+  "C0_2",
+  "C0_4",
+  "C0_6",
+  "C0_8"
+ ],
+ "counts": "C:\\quantum ai 2026\\airbus\\qlga_counts_20260810_122411.json"
+}

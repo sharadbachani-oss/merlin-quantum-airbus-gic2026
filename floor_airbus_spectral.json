@@ -1,0 +1,32 @@
+{
+ "card": "cheap spectral floor on the Airbus memory claim",
+ "significant_fourier_coeffs_per_component": 4,
+ "spectral_bytes": 128,
+ "rows": [
+  {
+   "Re": 10,
+   "N": 64,
+   "qtt_bytes": 2336,
+   "dense_bytes": 131072,
+   "spectral_bytes": 128,
+   "qtt_over_spectral": 18.2
+  },
+  {
+   "Re": 100,
+   "N": 256,
+   "qtt_bytes": 13472,
+   "dense_bytes": 2097152,
+   "spectral_bytes": 128,
+   "qtt_over_spectral": 105.2
+  },
+  {
+   "Re": 10000,
+   "N": 4096,
+   "qtt_bytes": 5824,
+   "dense_bytes": 536870912,
+   "spectral_bytes": 128,
+   "qtt_over_spectral": 45.5
+  }
+ ],
+ "verdict": "QTT/dense ratio is real; on the canonical TGV a spectral method is 18-105x cheaper than QTT. Memory claim must be stated against dense FV explicitly, and the multi-mode case is where QTT earns its place."
+}
